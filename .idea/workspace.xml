@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6ee548e-f528-428a-80ea-186ad1a7623f" name="Default Changelist" comment="" />
+    <list default="true" id="f6ee548e-f528-428a-80ea-186ad1a7623f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AccountBalanceAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AccountHolderAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/AccountBalanceAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AccountAggregate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AccountAggregateFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AccountAggregateAggregateFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Account$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Account$HydrationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Scratch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AccountAggregateFactoryTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +30,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -30,9 +68,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +86,9 @@
       <replace>double</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -56,7 +97,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/AggregateFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/AccountAggregateFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Aggregate.java" />
         <option value="$PROJECT_DIR$/src/main/java/Agg.kt" />
         <option value="$PROJECT_DIR$/src/main/java/AccountEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/NameChangeEvent.java" />
@@ -66,6 +106,19 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Scratch.java" />
         <option value="$PROJECT_DIR$/src/main/java/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AccountBallance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AccountBalanceAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AccountHolderAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Aggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hydration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AccountAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregateBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java" />
       </list>
     </option>
   </component>
@@ -81,11 +134,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="971" />
+    <option name="height" value="951" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -120,6 +174,14 @@
               <item name="rehydration" type="b2602c69:ProjectViewProjectNode" />
               <item name="rehydration" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rehydrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rehydration" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rehydration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -140,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547209762635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547542927897" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -148,16 +210,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rehydrate" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/rehydrate" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
@@ -173,10 +244,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Account">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Account" />
+  <component name="RunManager" selected="Application.AggregateBuilder">
+    <configuration name="AccountAggregate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccountAggregate" />
       <module name="rehydration" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregateBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rehydrate.AggregateBuilder" />
+      <module name="rehydration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rehydrate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,18 +272,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountAggregateFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountAggregateAggregateFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rehydration" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountAggregateFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountAggregateAggregateFactoryTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountAggregateFactoryTest.testSetNameChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountAggregateAggregateFactoryTest.testSetNameChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rehydration" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountAggregateFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountAggregateAggregateFactoryTest" />
       <option name="METHOD_NAME" value="testSetNameChange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -208,10 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Account" />
+        <item itemvalue="Application.AggregateBuilder" />
+        <item itemvalue="Application.AccountAggregate" />
         <item itemvalue="Application.Scratch" />
-        <item itemvalue="JUnit.AccountAggregateFactoryTest" />
-        <item itemvalue="JUnit.AccountAggregateFactoryTest.testSetNameChange" />
+        <item itemvalue="JUnit.AccountAggregateAggregateFactoryTest" />
+        <item itemvalue="JUnit.AccountAggregateAggregateFactoryTest.testSetNameChange" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +313,7 @@
       <workItem from="1547022476634" duration="8273000" />
       <workItem from="1547032578984" duration="13007000" />
       <workItem from="1547108027087" duration="9470000" />
-      <workItem from="1547202328650" duration="7085000" />
+      <workItem from="1547202328650" duration="23395000" />
     </task>
     <servers />
   </component>
@@ -247,13 +332,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37835000" />
+    <option name="totallyTimeSpent" value="54145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="971" extended-state="0" />
+    <frame x="0" y="24" width="1680" height="971" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,12 +347,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2254673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2254673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39960435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943925" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32943925" />
@@ -349,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AccountAggregateFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccountAggregateAggregateFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
@@ -359,27 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AccountAggregateFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Aggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,14 +461,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountBalanceAggregate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountHolderAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountAggregate.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AccountAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="90" column="51" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountBalanceAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Aggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
