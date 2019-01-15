@@ -1,9 +1,12 @@
 package rehydrate;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Map;
@@ -39,6 +42,13 @@ public interface Hydration {
                                                     e.printStackTrace();
                                                 }
                                                 break;
+                                            case "bigInteger":
+                                            case "BigInteger":
+                                                try {
+                                                    field.set(result, BigInteger.valueOf(Long.valueOf(val.textValue())));
+                                                } catch (IllegalAccessException e) {
+                                                    e.printStackTrace();
+                                                }
                                             default:
                                                 try {
                                                     field.set(result, val.textValue());
@@ -52,4 +62,6 @@ public interface Hydration {
                 );
         return result;
     }
+
+
 }

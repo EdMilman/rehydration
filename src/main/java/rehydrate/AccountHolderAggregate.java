@@ -5,7 +5,8 @@ import java.util.Objects;
 public class AccountHolderAggregate {
     private String firstName;
     private String lastName;
-    private double balance;
+    private Double balance;
+    private Address address;
 
     public String getFirstName() {
         return firstName;
@@ -33,12 +34,14 @@ public class AccountHolderAggregate {
         if (o == null || getClass() != o.getClass()) return false;
         AccountHolderAggregate that = (AccountHolderAggregate) o;
         return Objects.equals(firstName, that.firstName) &&
-                Objects.equals(lastName, that.lastName);
+                Objects.equals(lastName, that.lastName) &&
+                Objects.equals(balance, that.balance) &&
+                Objects.equals(address, that.address);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, balance);
+        return Objects.hash(firstName, lastName, balance, address);
     }
 
     @Override
@@ -47,6 +50,11 @@ public class AccountHolderAggregate {
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", balance=" + balance +
+                ", address=" + address +
                 '}';
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 }
