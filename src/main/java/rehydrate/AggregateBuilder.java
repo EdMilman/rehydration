@@ -8,10 +8,10 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Collection;
 
-public class AggregateBuilder extends HydrationImpl {
+public class AggregateBuilder extends NewHydrationImpl {
 
 
-    public static void main(String[] args) throws IOException, InvocationTargetException, NoSuchMethodException, NoSuchFieldException, InstantiationException, IllegalAccessException {
+    public static void main(String[] args) throws IOException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         AggregateBuilder builder = new AggregateBuilder();
         ObjectMapper mapper = new ObjectMapper();
         JsonNode node = mapper.readTree("{\"firstName\":\"old first name\",\"balance\":\"50.0\"}");

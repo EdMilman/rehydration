@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ee548e-f528-428a-80ea-186ad1a7623f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/HydrationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/converters/DoubleFieldSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/converters/FieldSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/converters/IntegerFieldSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/converters/StringFieldSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jackson_hydration/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jackson_hydration/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jackson_hydration/Hydrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jackson_hydration/HydrateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rehydrate/NewHydrationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jackson_hydration/HydrateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rehydrate/AccountBalanceAggregate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rehydrate/AccountHolderAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rehydrate/AccountHolderAggregate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rehydrate/AggregateBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rehydrate/AggregateBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rehydrate/Hydration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rehydrate/Hydration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rehydrate/converters/AddressFieldSetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rehydrate/converters/AddressFieldSetter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,78 +22,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/HydrationImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/HydrateImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/jackson_hydration/HydrateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            <state relative-caret-position="406">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1663#1664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/Hydrate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +88,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
         <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,6 +101,8 @@
       <find>Long</find>
       <find>long</find>
       <find>Double</find>
+      <find>newRead</find>
+      <find>readValui</find>
     </findStrings>
     <replaceStrings>
       <replace>Double</replace>
@@ -159,17 +140,24 @@
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregateBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/IntegerConverts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/IntegerFieldSetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/FieldSetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/StringFieldSetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/DoubleFieldSetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/HydrationImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/IntegerFieldSetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rehydrate/NewHydrationImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson_hydration/hydrate.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson_hydration/Hydrate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson_hydration/HydrateImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson_hydration/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson_hydration/Account.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jackson_hydration/HydrateTest.java" />
       </list>
     </option>
   </component>
@@ -227,7 +215,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rehydrate" type="462c0819:PsiDirectoryNode" />
+              <item name="jackson_hydration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rehydration" type="b2602c69:ProjectViewProjectNode" />
@@ -236,7 +224,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rehydrate" type="462c0819:PsiDirectoryNode" />
-              <item name="converters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rehydration" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547561017439" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547652848175" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -279,19 +266,22 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="jackson_hydration" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="rehydrate.converters" />
+      <recent name="jackson_hydration" />
       <recent name="rehydrate" />
+      <recent name="rehydrate.converters" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/rehydrate" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="jackson_hydration" />
       <recent name="rehydrate" />
       <recent name="rehydrate.converters" />
       <recent name="" />
@@ -309,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AggregateBuilder">
+  <component name="RunManager" selected="JUnit.HydrateTest.accountHydrationTest">
     <configuration name="AccountAggregate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AccountAggregate" />
       <module name="rehydration" />
@@ -330,6 +320,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HydrateImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jackson_hydration.HydrateImpl" />
+      <module name="rehydration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jackson_hydration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scratch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Scratch" />
       <module name="rehydration" />
@@ -337,19 +340,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountAggregateAggregateFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HydrateTest.accountHydrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rehydration" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountAggregateAggregateFactoryTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountAggregateAggregateFactoryTest.testSetNameChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rehydration" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountAggregateAggregateFactoryTest" />
-      <option name="METHOD_NAME" value="testSetNameChange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jackson_hydration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jackson_hydration" />
+      <option name="MAIN_CLASS_NAME" value="jackson_hydration.HydrateTest" />
+      <option name="METHOD_NAME" value="accountHydrationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HydrateTest.accountHydrationTest" />
+        <item itemvalue="Application.HydrateImpl" />
         <item itemvalue="Application.AggregateBuilder" />
         <item itemvalue="Application.AccountAggregate" />
         <item itemvalue="Application.Scratch" />
-        <item itemvalue="JUnit.AccountAggregateAggregateFactoryTest" />
-        <item itemvalue="JUnit.AccountAggregateAggregateFactoryTest.testSetNameChange" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +380,7 @@
       <workItem from="1547032578984" duration="13007000" />
       <workItem from="1547108027087" duration="9470000" />
       <workItem from="1547202328650" duration="26006000" />
-      <workItem from="1547550156258" duration="8829000" />
+      <workItem from="1547550156258" duration="31943000" />
     </task>
     <servers />
   </component>
@@ -396,15 +397,24 @@
     <history-entry file="AccountAggregateFactoryTest - 2019.01.10 at 09h 04m 35s.xml">
       <configuration name="AccountAggregateFactoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HydrateTest_accountHydrationTest - 2019.01.16 at 14h 38m 05s.xml">
+      <configuration name="HydrateTest.accountHydrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HydrateTest_accountHydrationTest - 2019.01.16 at 14h 38m 23s.xml">
+      <configuration name="HydrateTest.accountHydrationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HydrateTest_accountHydrationTest - 2019.01.16 at 15h 30m 44s.xml">
+      <configuration name="HydrateTest.accountHydrationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65585000" />
+    <option name="totallyTimeSpent" value="88699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="971" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16178267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,17 +423,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26051402" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39960435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.26051402" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36915886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943925" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.498779" weight="0.32943925" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501221" side_tool="true" weight="0.32943925" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32943925" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4993895" weight="0.32943925" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -443,12 +453,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/rehydrate/HydrationImpl.java</url>
-          <line>33</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="1" />
+          <url>jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class</url>
+          <line>1469</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -586,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="53" column="87" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/converters/StringFieldSetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -610,16 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/converters/IntegerFieldSetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountBalanceAggregate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -627,41 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/HydrationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="34" />
           <folding>
             <element signature="e#874#875#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
@@ -669,10 +629,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar!/com/fasterxml/jackson/core/ObjectCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Hydration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="53" column="87" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="455" column="17" selection-start-line="455" selection-start-column="17" selection-end-line="455" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/util/TokenBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="1048" selection-start-line="1048" selection-end-line="1048" />
+          <folding>
+            <element signature="e#4159#4160#0" expanded="true" />
+            <element signature="e#4214#4215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="1480" selection-start-line="1480" selection-end-line="1480" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AccountHolderAggregate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="387">
+          <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
           <folding>
             <element signature="e#1099#1100#0" expanded="true" />
             <element signature="e#1173#1174#0" expanded="true" />
@@ -682,10 +694,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/converters/IntegerFieldSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/converters/AddressFieldSetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/HydrationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/AggregateBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rehydrate/NewHydrationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/hydrate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/node/ObjectNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
+          <folding>
+            <element signature="e#11486#11487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="646" column="16" selection-start-line="646" selection-start-column="16" selection-end-line="646" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/Hydrate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/HydrateImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson_hydration/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1663#1664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/jackson_hydration/HydrateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
